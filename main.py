@@ -1,6 +1,6 @@
 import random
 
-a = 'abcdefghijklnopqrstuvwxyz'
+a = 'abcdefghijklnopqrstuvwxyzADCDEFGHIJKLMNOPQRSTUVWXYZ'
 b =''
 for i in range(11):
     b += random.choice(a)
